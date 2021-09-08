@@ -3,8 +3,8 @@
 /**
  * RD開發用Git Commit備份工具 - 將某一個git commit異動內容覆製到特定資料夾
  * 20210908 @Marco
- * 使用方式 php -q backup_git_file.php commit_id 目的資料夾(不需加斜線)
- * EX: php -q backup_git_file.php 55a55ca65caaaddd7b07e642bb45d794f0412a96 test2
+ * 使用方式 php -q backup_git_file.php commit_id 目的資料夾/ (需加斜線)
+ * EX: php -q backup_git_file.php 55a55ca65caaaddd7b07e642bb45d794f0412a96 test2/
  * EX: php -q backup_git_file.php 55a55ca65caaaddd7b07e642bb45d794f0412a96 show 顯示該commit異動檔案
  */
 
